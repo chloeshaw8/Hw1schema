@@ -2,7 +2,8 @@
 {
 "$schema": "http://json-schema.org/draft-07/schema#",
 "$ID": 
-"type": "Object"
+"Description": "Various characteristics of genes in homosapiens"
+"type": "Array"
 "required": [
 "Name",
 "Length",
