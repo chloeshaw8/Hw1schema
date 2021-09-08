@@ -1,35 +1,41 @@
 # Hw1schema
 {
 "$schema": "http://json-schema.org/draft-07/schema#",
-"$ID": "https://github.com/chloeshaw8/Hw1schema/blob/main/README.md"
+"$ID": 
 "Description": "Various characteristics of genes in homosapiens"
-"type": "Array"
+"type": "Object"
 "required": [
 "Name",
 "Length",
 "Accession Number"
 ],
-"Data": {
-"Name": {
+"Properties": {
+"Name":{
 "Type": "string",
+"Title": "Name",
+"Description": "Name of gene abbreviated",
 "Results":[
 "DDX58",
 "ACE2",
 "TP53",
 "INS-IGF2",
 "HBB"
-]}
+]},
 "Length": {
 "Type": "string",
+"Title": "Length of gene",
+"Description": "Length of gene in base pairs",
 "Results": [
 "78023",
 "90962",
 "32772",
 "39098",
 "10106"
-]}
-"Accession number": {
-"Type": "string"
+]},
+"Accession": {
+"Type": "string",
+"Title": "Accession number",
+"Description": "Accession number of gene",
 "Results": [
 "046918",
 "12575",
