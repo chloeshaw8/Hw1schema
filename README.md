@@ -1,7 +1,7 @@
 # Hw1schema
 {
 "$schema": "http://json-schema.org/draft-07/schema#",
-"$ID": 
+"$ID": "https://github.com/chloeshaw8/Hw1schema/blob/main/README.md"
 "Description": "Various characteristics of genes in homosapiens"
 "type": "Array"
 "required": [
