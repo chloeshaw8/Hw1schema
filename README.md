@@ -6,16 +6,13 @@
   "description": "Characteristics of genes in homo sapiens",
   "required": [
     "data",
-    "name",
-    "length",
-    "accession number"
    ],
   "properties": {
     "keywords": {
       "type": "array",
       "description": "keywords to identify characteristics of genes",
       "items": {
-        "type": "string",
+        "type": "object",
         "description": "Abbreviated name of genes, length of gene in base pairs and accession number of genes",
         "examples": [
           "DDX58",
