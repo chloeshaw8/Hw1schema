@@ -3,22 +3,37 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$ID": "https://raw.githubusercontent.com/chloeshaw8/Hw1schema/main/README.md",
   "type": "object",
-  "description": "Characteristics of genes in homo sapiens",
+  "title": "gene characteristics",
+  "description": "characteristics of genes in homo sapiens",
   "required": [
     "data",
    ],
   "properties": {
     "keywords": {
       "type": "array",
-      "description": "keywords to identify characteristics of genes",
+      "description": "characteristics of various genes",
       "items": {
         "type": "object",
-        "description": "Abbreviated name of genes, length of gene in base pairs and accession number of genes",
+        "title": "gene name"
+        "description": "abbreviated name of genes",
         "examples": [
           "DDX58",
-          "78023",
-          "12575"
-         ]}
+          "C3"
+         ]},{
+         "type": "object",
+         "title": "length"
+         "description": "length of gene in base pairs",
+         "examples": [
+          "50392",
+          "709234"
+          ]},{
+          "type": "object",
+          "title": "accession number",
+          "description": "accession number for gene given on ncbi",
+          "examples": [
+            "010293",
+            "109201"
+            ]}
         }
        }
 }
