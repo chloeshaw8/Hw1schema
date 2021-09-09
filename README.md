@@ -14,26 +14,13 @@
       "description": "characteristics of various genes",
       "items": {
         "type": "object",
-        "title": "gene name"
-        "description": "abbreviated name of genes",
+        "description": "abbreviated name of genes, length of gene in base pairs, accession number of gene",
         "examples": [
           "DDX58",
-          "C3"
-         ]},{
-         "type": "object",
-         "title": "length"
-         "description": "length of gene in base pairs",
-         "examples": [
-          "50392",
-          "709234"
-          ]},{
-          "type": "object",
-          "title": "accession number",
-          "description": "accession number for gene given on ncbi",
-          "examples": [
-            "010293",
-            "109201"
-            ]}
+          "C3",
+          "718293",
+          "109291"
+         ]}
         }
        }
 }
